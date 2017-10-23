@@ -1198,7 +1198,7 @@
         /*
              L1. On each line, reset the embedding level of the following characters to
              the paragraph embedding level:
-        
+
              segment separators,
              paragraph separators,
              any sequence of whitespace characters preceding a segment separator or
@@ -51633,7 +51633,7 @@
           data.readOnly = this.hasFieldFlag(AnnotationFieldFlag.READONLY);
           // Hide signatures because we cannot validate them.
           if (data.fieldType === 'Sig') {
-            this.setFlags(AnnotationFlag.HIDDEN);
+            // this.setFlags(AnnotationFlag.HIDDEN);
           }
           // Building the full field name by collecting the field and
           // its ancestors 'T' data and joining them using '.'.
